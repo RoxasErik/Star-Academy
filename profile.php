@@ -183,7 +183,7 @@ $conn->close();
                    <img src="images/4.png" alt="Number">
                    <h4>Number Grade</h4>
                    <p>Progress: <?= $scores['number'] ?? 0 ?>%</p>
-                   <div class="progress-container">
+                   <div class="progress-containers">
                        <div class="progress-bar" style="width: <?= $scores['number'] ?? 0 ?>%;"></div>
                    </div>
                </div>
